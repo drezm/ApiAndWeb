@@ -1,0 +1,113 @@
+﻿@page "/goods-list"
+@using Microsoft.EntityFrameworkCore;
+@inject PracticeContext context
+<h1 style="font-weight: bold;">Auto-Russia - сервис, благодаря которому исполняются мечты</h1>
+<br/>
+
+
+
+
+<div class="card-container">
+    @foreach (var ad in car)
+    {
+        <div class="card">
+            @if(ad.Image == null)
+            {
+                <img class="image" src="https://proprikol.ru/wp-content/uploads/2020/11/kartinki-oshibki-31.jpg">
+            }
+            else
+            {
+                <img class="image" src="@ad.Image">
+            }
+           
+            <div class="Title">
+                <div class="name">
+                    <p style="font-size: 23px">@ad.Model.Brand</p>
+                    <p style="font-size: 23px"> @ad.Model.Model1</p>
+                </div>
+                <p>Статус автомобиля: @ad.CarStatus.StatusName</p>
+                <p>@ad.Description</p>
+            </div>
+            <a href="https://auto.ru/" style="text-decoration: none;">
+                <div class="btn">
+                    <div class="intext">
+                        <span>Подробенее</span>
+                    </div>
+
+                </div>
+            </a>
+           
+        </div>
+    }
+</div>
+
+<style>
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-content: center;
+        gap:50px;
+    }
+
+    .card {
+        flex: 0 0 calc(33.33% - 35px); 
+        margin-bottom: 5px;
+        width: 900px;
+        height: 850px;
+        border-radius: 30px;
+
+    }
+
+    .name {
+        padding-top: 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+    }
+        
+    .image {
+        width: 100%;
+        height: 400px;
+    }
+    .Title{
+        padding-bottom: 20px;
+        padding-left: 15px;
+    
+    }
+    .btn {
+        display: flex;
+        width:180px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: lightblue;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .intext{
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+
+    /* Дополнительные стили для картинки, заголовка и других элементов */
+</style>
+@code{
+    private List<Car> car = new List<Car>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        car = await context.Cars.Include(x => x.Model)
+                                 .Include(x => x.CarStatus)
+                                 .Include(x => x.User)
+                                 .ToListAsync();
+    }
+}
+
+
+@* <h3>Машина</h3>
+<p>@car.Model.Brand</p>
+<img src="@car.Image"> *@

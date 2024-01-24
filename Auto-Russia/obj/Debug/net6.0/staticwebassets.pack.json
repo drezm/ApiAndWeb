@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Auto-Russia.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Auto-Russia.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\Transport.css",
+      "PackagePath": "staticwebassets\\css\\Transport.css"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\matvejsablukov\\source\\repos\\Practice\\Auto-Russia\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Auto-Russia.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Auto-Russia.props",
+      "PackagePath": "build\\Auto-Russia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Auto-Russia.props",
+      "PackagePath": "buildMultiTargeting\\Auto-Russia.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Auto-Russia.props",
+      "PackagePath": "buildTransitive\\Auto-Russia.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
